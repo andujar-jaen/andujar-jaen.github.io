@@ -232,6 +232,20 @@ header
   color: #FFDD00!important;
 }
 
+.contact-background {
+    background-image: url('../images/schedule-bg.jpg');
+    background-size: cover; /* Para que la imagen cubra todo el área */
+    background-position: center;
+    padding: 50px; /* Ajusta según sea necesario */
+}
+
+.contact-info {
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente */
+  padding: 20px; /* Espaciado interno para que no esté muy pegado */
+  border-radius: 5px; /* Bordes redondeados para un mejor estilo */
+  color: #fff; /* Mantiene el texto en blanco */
+}
+
 .header-area {
   position: absolute;
   top: 0px;
