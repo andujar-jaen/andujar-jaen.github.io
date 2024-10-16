@@ -134,14 +134,6 @@ body {
 @media (max-width: 600px) {
   html, body {
     overflow-x: hidden;
-    font-size: 14px; /* Ajusta el tamaño de fuente en móviles */
-  h1 {
-        font-size: 2em; /* Reduce el tamaño de los títulos en móviles */
-    }
-
-  p {
-        font-size: 0.9em; /* Ajusta el tamaño de texto en móviles */
-    }
   }
   .mobile-top-fix {
     margin-top: 30px;
