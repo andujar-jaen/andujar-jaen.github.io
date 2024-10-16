@@ -108,6 +108,8 @@ p {
   color: #7a7a7a;
 }
 
+
+
 /* 
 ---------------------------------------------
 global styles
@@ -129,9 +131,17 @@ body {
   color: #fff;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 600px) {
   html, body {
     overflow-x: hidden;
+    font-size: 14px; /* Ajusta el tamaño de fuente en móviles */
+  h1 {
+        font-size: 2em; /* Reduce el tamaño de los títulos en móviles */
+    }
+
+  p {
+        font-size: 0.9em; /* Ajusta el tamaño de texto en móviles */
+    }
   }
   .mobile-top-fix {
     margin-top: 30px;
@@ -664,7 +674,14 @@ banner
   color: #fff;
   letter-spacing: 0.5px;
 }
-
+.main-banner .caption h3 {
+  margin-top: 0px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
 .main-banner .caption h2 {
   margin-top: 30px;
   margin-bottom: 25px;
